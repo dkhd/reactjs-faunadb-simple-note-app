@@ -31,7 +31,7 @@ const Home = () => {
         ? noteData.map((items, index) => (
             <Link
               to={'/' + items.ref.value.id}
-              className='flex flex-col hover:bg-blue-100 bg-yellow-100 w-3/12 p-5 filter drop-shadow'
+              className='flex flex-col hover:bg-blue-100 bg-yellow-100 w-10/12 md:w-3/12 p-5 filter drop-shadow'
               key={index}
             >
               <div className='flex flex-col'>
