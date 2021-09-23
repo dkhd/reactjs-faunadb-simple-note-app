@@ -57,7 +57,7 @@ const Icon = (props) => {
 
 const Navbar = () => {
   return (
-    <div className='fixed bottom-0 right-0 m-5'>
+    <div className='fixed bottom-0 right-0 m-5 z-50'>
       <div className='flex flex-col justify-end shadow bg-purple-300 rounded-full overflow-hidden'>
         {links.map((items, index) => (
           <NavLink
