@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className='flex flex-wrap gap-3 w-full h-full justify-center py-10'>
       <Navbar></Navbar>
-      <div className='flex flex-col hover:bg-blue-100 bg-red-100 w-3/12 p-5 filter drop-shadow'>
+      <div className='flex flex-col hover:bg-blue-100 bg-red-100 w-10/12 md:w-3/12 p-5 filter drop-shadow'>
         <div className='flex flex-col'>
           <span className='font-semibold'>About</span>
           <span className='font-light'>
